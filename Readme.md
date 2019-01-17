@@ -67,3 +67,15 @@
 
 ### To Send logs to log stash
 `docker run --log-driver=syslog --log-opt syslog-address=tcp://<logstash-system-ip(use ip not localhost)>:5000 my-image:2.0.0`
+
+### How to save docker image in tar file  (docker save command) (Transfer docker image from one host to another)
+```
+docker save IMAGE_NAME:VERSON > MY_IMAGE.tar
+or
+docker save -o MY_IMAGE.tar IMAGE_NAME:VERSON
+```
+
+### Store docker tar file into docker 
+```
+docker load -i path_to_tar_file
+```
