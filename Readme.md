@@ -37,7 +37,7 @@
 ### View docker logs
 `docker logs processid`
 
-### Pass env varible to docker container
+### Pass env variable to docker container
 `docker run -e var_name1="xxx" -e var_name2="35" -t my_image:2.0.0`
 
 ### Mount a host system folder
