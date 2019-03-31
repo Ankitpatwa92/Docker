@@ -23,7 +23,7 @@
 `docker ps`
 
 ### Enter into docker file system
-`docker exec -t -i CONTAINER_ID  bash`
+`docker exec -t -i CONTAINER_ID  bash` or `docker exec -ti cc55da85b915 /bin/sh` or `docker exec -ti cc55da85b915 ls /etc`
 
 ### How to stop docker process
 `docker stop CONTAINER_ID `
