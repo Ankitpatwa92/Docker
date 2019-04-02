@@ -79,3 +79,9 @@ docker save -o MY_IMAGE.tar IMAGE_NAME:VERSON
 ```
 docker load -i path_to_tar_file
 ```
+
+### Docker build in no cache mode
+```
+docker build  --no-cache 
+
+```
