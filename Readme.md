@@ -40,6 +40,9 @@
 ### Pass env variable to docker container
 `docker run -e var_name1="xxx" -e var_name2="35" -t my_image:2.0.0`
 
+### Pass env list to docker container
+`docker run --env-file myimage.env my_image:0.0.2`
+
 ### Mount a host system folder
 `docker run  -v D:/myHostFolder/apps:/dockerFolder/log -t my-image-2:0.0`
 
